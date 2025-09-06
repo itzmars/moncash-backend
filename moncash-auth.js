@@ -12,7 +12,7 @@ const getMonCashToken = async () => {
 
   try {
     const response = await axios.post(
-      "https://moncashbutton.digicelgroup.com/Api/oauth/token",
+      "https://sandbox.moncashbutton.digicelgroup.com/Api/oauth/token",
       qs.stringify({
         scope: "read,write",
         grant_type: "client_credentials",

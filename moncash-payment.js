@@ -5,11 +5,11 @@ const { getMonCashToken } = require("./moncash-auth");
 const router = express.Router();
 
 const MONCASH_CREATE_URL =
-  "https://moncashbutton.digicelgroup.com/Api/v1/CreatePayment";
+  "https://sandbox.moncashbutton.digicelgroup.com/Api/v1/CreatePayment";
 const MONCASH_VERIFY_URL =
-  "https://moncashbutton.digicelgroup.com/Api/v1/RetrieveTransactionPayment";
+  "https://sandbox.moncashbutton.digicelgroup.com/Api/v1/RetrieveTransactionPayment";
 const MONCASH_REDIRECT_URL =
-  "https://moncashbutton.digicelgroup.com/Moncash-payment/Payment/Redirect?token=";
+  "https://sandbox.moncashbutton.digicelgroup.com/Moncash-payment/Payment/Redirect?token=";
 
 /**
  * @route POST /moncash/create-payment
