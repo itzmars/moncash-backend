@@ -1,9 +1,9 @@
 const axios = require("axios");
 const qs = require("querystring");
 
-const clientId = "16e2147c4a729eacb319fa09e1e2cea9";
+const clientId = "75a46d06c9288e16df9daa5561d9eb54";
 const clientSecret =
-  "crfiGOZB4mEAuvxrjTOFfP2iU2Sg1gE5TB4rF6TtUURt0CL1TwUcbRoxLApe8YHq";
+  "utIRs4ZlwdC70B5S_9ySghQLiwliZT-lLoRhMftWo4llepJYVzJH-xGFAefVAdGn";
 
 const getMonCashToken = async () => {
   const credentials = Buffer.from(`${clientId}:${clientSecret}`).toString(
